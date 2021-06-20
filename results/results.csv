@@ -1,0 +1,11 @@
+File Name,Description,Throughput (inf/sec),Latency in ms,Accuracy Top-1
+LPC55S69_TF-O0,LPC55S69 With TFLite Micro and no optimization,0.515,1941.747573,90.10%
+LPC55S69_TF-O3,LPC55S69 With TFLite Micro TF library compiled using -O3,3.978,251.3826043,90.10%
+LPC55S69_TF-O3_RAM,LPC55S69 With TFLite Micro TF library compiled using -O3 and flatbuffer coppied to RAM,4.416,226.4492754,90.10%
+LPC55S69_GLOW,LPC55S69 With GLOW,1.473,678.8866259,90.50%
+LPC55S69_GLOW_RAM,LPC55S69 With GLOW and mutable weights coppied to RAM,1.634,611.995104,90.50%
+MIMXRT1011_TF-O0,IMX RT1010 With TFLite Micro and no optimization,3.81,262.4671916,90.10%
+MIMXRT1011_TF-O3,IMX RT1010 With TFLite Micro TF library compiled using -O3,12.18,82.10180624,90.10%
+MIMXRT1011_TF-O3_RAM,IMX RT1010 With TFLite Micro TF library compiled using -O3 and flatbuffer coppied to RAM,12.286,81.39345597,90.10%
+MIMXRT1011_GLOW,IMX RT1010 With With GLOW,17.867,55.96910505,90.50%
+MIMXRT1011_GLOW_RAM,IMX RT1010 With With GLOW and mutable weights coppied to RAM,18.027,55.47234704,90.50%
